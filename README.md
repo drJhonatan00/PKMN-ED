@@ -56,7 +56,7 @@ This project does not include copies of original files, such as 3D models, games
 
 ---
 
-## 📜 License & Acknowledgments
+## License & Acknowledgments
 
 This project is open-source under the **MIT License**.
 
