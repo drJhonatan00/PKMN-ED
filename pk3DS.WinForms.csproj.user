@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="3DModelExtractor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Misc\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Misc\ErrorWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Misc\Patch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Music.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\EnhancedRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\EggMoveEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\EvolutionEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\Experimental\MapPermView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\Experimental\OWSE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\GiftEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\ItemEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\LevelUpEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\MaisonEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\MartEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\MegaEvoEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\MoveEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\OPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\PersonalEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\PickupEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\RSTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\RSWE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\StarterEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\StaticEncounterEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\TitleScreenEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\TMHMEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\TrainerRand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\TutorEditor6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\TypeChart6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen6\XYWE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\EggMoveEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\EvolutionEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\Experimental\OWSE7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\ItemEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\LevelUpEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\MaisonEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\MartEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\MartEditor7UU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\MegaEvoEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\MoveEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\PersonalEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\PickupEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\SMTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\SMWE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\StaticEncounterEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\TMEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\TutorEditor7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\Gen7\TypeChart7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\ShinyRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Subforms\TextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tools\Icon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tools\Shuffler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tools\ToolsUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
