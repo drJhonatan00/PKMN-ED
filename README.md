@@ -68,3 +68,5 @@ This project is open-source under the **MIT License**.
 
 ---
 *Maintained and developed by [drJhonatan00](https://github.com/drJhonatan00)*
+
+<!-- Watashi wa watashi sore dake -->
