@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="PKMNED.WinForms/PKMNED.WinForms.csproj" />
+  <Project Path="PKMNED.Core/PKMNED.Core.csproj" />
+</Solution>

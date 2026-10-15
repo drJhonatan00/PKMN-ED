@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Product>PKMNED</Product>
+    <Company>drJhonatan00</Company>
+    <Authors>drJhonatan00</Authors>
+    <Copyright>drJhonatan00</Copyright>
+    <SourceRevisionId>$([System.DateTime]::UtcNow.ToString("yyMMddHHmmss"))</SourceRevisionId>
+  </PropertyGroup>
+</Project>
