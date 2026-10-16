@@ -6,10 +6,10 @@ A lightweight C# utility built on top of pk3DS.Core to seamlessly extract Gen 6 
 
 An upgraded, modernized, and feature-packed fork of **pk3DS** designed for Nintendo 3DS Pokémon ROM hacking, resource editing, and asset extraction (Gen 6 & Gen 7). 
 
-<img width="788" height="425" alt="1000046507" src="https://github.com/user-attachments/assets/61b2d17a-060c-4e00-b455-fe6c5539ffeb" />
-
 
 **PKMN-ED** rebuilds and enhances the original core tool by integrating the **SPICA 3D rendering pipeline**, adding direct **audio/music stream management**, overhauling the **UI/UX design**, and drastically optimizing tool performance and extraction speed.
+
+<img width="788" height="425" alt="1000046507" src="https://github.com/user-attachments/assets/61b2d17a-060c-4e00-b455-fe6c5539ffeb" />
 
 ---
 
