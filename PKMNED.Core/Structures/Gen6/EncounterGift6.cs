@@ -1,0 +1,106 @@
+﻿using System.IO;
+
+namespace PKMNED.Core.Structures;
+
+public class EncounterGift6
+{
+    public byte[] Data;
+    public bool ORAS;
+    public ushort Species;
+    public ushort u2;
+    public byte Form;
+    public byte Level;
+    public sbyte Ability;
+    public sbyte Nature;
+    public byte Shiny, u9, uA, uB;
+    public int HeldItem;
+    public sbyte Gender;
+    public byte u11;
+    public short MetLocation;
+    public ushort Move;
+    public sbyte[] IVs = new sbyte[6];
+    public byte[] ContestStats;
+    public byte u22;
+    public byte uLast;
+
+    public bool ShinyLock
+    {
+        get => (Shiny & 2) != 0;
+        set => Shiny = (byte)((Shiny & ~2) | (value ? 2 : 0));
+    }
+
+    public EncounterGift6(byte[] data, bool oras)
+    {
+        Data = data;
+        ORAS = oras;
+        using var br = new BinaryReader(new MemoryStream(Data));
+        Species = br.ReadUInt16();
+        u2 = br.ReadUInt16();
+        Form = br.ReadByte();
+        Level = br.ReadByte();
+        Shiny = br.ReadByte();
+        Ability = br.ReadSByte();
+        Nature = br.ReadSByte();
+        u9 = br.ReadByte();
+        uA = br.ReadByte();
+        uB = br.ReadByte();
+        HeldItem = br.ReadInt32();
+        Gender = br.ReadSByte();
+
+        if (ORAS)
+        {
+            u11 = br.ReadByte();
+            MetLocation = br.ReadInt16();
+            Move = br.ReadUInt16();
+        }
+
+        for (int i = 0; i < 6; i++)
+            IVs[i] = br.ReadSByte();
+
+        if (ORAS)
+        {
+            ContestStats = br.ReadBytes(6);
+            u22 = br.ReadByte();
+        }
+
+        uLast = br.ReadByte();
+    }
+
+    public byte[] Write()
+    {
+        using var ms = new MemoryStream();
+        using var bw = new BinaryWriter(ms);
+        bw.Write(Species);
+        bw.Write(u2);
+        bw.Write(Form);
+        bw.Write(Level);
+        bw.Write(Shiny);
+        bw.Write(Ability);
+        bw.Write(Nature);
+        bw.Write(u9);
+        bw.Write(uA);
+        bw.Write(uB);
+        bw.Write(HeldItem);
+        bw.Write(Gender);
+
+        if (ORAS)
+        {
+            bw.Write(u11);
+            bw.Write(MetLocation);
+            bw.Write(Move);
+        }
+
+        for (int i = 0; i < 6; i++)
+            bw.Write(IVs[i]);
+
+        if (ORAS)
+        {
+            bw.Write(ContestStats);
+            bw.Write(u22);
+        }
+
+        bw.Write(uLast);
+
+        return ms.ToArray();
+    }
+}
